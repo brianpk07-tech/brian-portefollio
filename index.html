@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Professionnel | JobChallenge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Brian Parkansky</h1> </div>
+        <nav>
+            <ul>
+                <li><a href="#edito">Edito</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="photo-wrapper">
+            <div class="photo-container">
+                <img src="assets/brian.png" alt="Portrait de Brian Parkansky">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="edito" class="container">
+            <h2>Edito</h2>
+            <p>"La persévérance est le secret de tous les succès." Etudiant à l'epf passionné par l'informatique et le commerce.</p>
+        </section>
+
+        <section id="projets" class="container">
+            <h2>Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card"><h3>Projet Alpha</h3><p>Développement d'un réseau de distribution.</p></div>
+                <div class="project-card"><h3>Projet Beta</h3><p>Optimisation du cycle de vente logicielle.</p></div>
+                <div class="project-card"><h3>Projet Gamma</h3><p>Prospection terrain secteur industrie.</p></div>
+                <div class="project-card"><h3>Projet Delta</h3><p>Mise en place d'un CRM personnalisé.</p></div>
+                <div class="project-card"><h3>Projet Epsilon</h3><p>Négociation de contrats grands comptes.</p></div>
+                <div class="project-card"><h3>Projet Zeta</h3><p>Analyse de la performance commerciale.</p></div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <input type="text" id="prenom" placeholder="Prénom" required>
+                <input type="text" id="nom" placeholder="Nom" required>
+                <textarea id="message" placeholder="Votre message" required></textarea>
+                <div class="rgpd-consent">
+                    <input type="checkbox" id="rgpd" required>
+                    <label for="rgpd">J'accepte que mes données soient traitées conformément au RGPD.</label>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
