@@ -9,7 +9,160 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!DOCTYPE html>
+<!-- Indique au navigateur qu'on utilise HTML5 -->
+<html lang="fr">
+<!-- Début du document HTML, langue française -->
 
+<head>
+    <meta charset="UTF-8">
+    <!-- Permet d'afficher correctement les caractères spéciaux (é, è, à...) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Rend le site responsive sur mobile -->
+
+    <title>Portfolio Professionnel | JobChallenge</title>
+    <!-- Titre affiché dans l'onglet du navigateur -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Import d'une police Google Fonts -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Import des icônes (LinkedIn, Twitter, etc.) -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Lien vers ton fichier CSS -->
+</head>
+
+<body>
+<!-- Contenu visible du site -->
+
+    <header>
+        <!-- En-tête du site -->
+
+        <div class="logo">
+            <h1>Brian Parkansky</h1>
+        </div>
+
+        <nav>
+            <!-- Menu de navigation -->
+            <ul>
+                <li><a href="#edito">Edito</a></li>
+                <!-- Lien vers la section Edito -->
+                <li><a href="#projets">Projets</a></li>
+                <!-- Lien vers la section Projets -->
+                <li><a href="#contact">Contact</a></li>
+                <!-- Lien vers la section Contact -->
+            </ul>
+        </nav>
+
+        <div class="photo-wrapper">
+            <!-- Conteneur pour ta photo -->
+            <div class="photo-container">
+                <img src="assets/brian.png" alt="Portrait de Brian Parkansky">
+                <!-- Image de profil -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <!-- Contenu principal du site -->
+
+        <section id="edito" class="container">
+            <!-- Section Edito -->
+            <h2>Edito</h2>
+            <p>"La persévérance est le secret de tous les succès." 
+            Etudiant à l'epf passionné par l'informatique et le commerce.</p>
+        </section>
+
+        <section id="projets" class="container">
+            <!-- Section Projets -->
+            <h2>Projets</h2>
+
+            <div class="projects-grid">
+                <!-- Grille contenant les cartes de projets -->
+
+                <div class="project-card">
+                    <h3>Projet Alpha</h3>
+                    <p>Développement d'un réseau de distribution.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Projet Beta</h3>
+                    <p>Optimisation du cycle de vente logicielle.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Projet Gamma</h3>
+                    <p>Prospection terrain secteur industrie.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Projet Delta</h3>
+                    <p>Mise en place d'un CRM personnalisé.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Projet Epsilon</h3>
+                    <p>Négociation de contrats grands comptes.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Projet Zeta</h3>
+                    <p>Analyse de la performance commerciale.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <!-- Section Contact -->
+            <h2>Contact</h2>
+
+            <form id="contactForm">
+                <!-- Formulaire de contact -->
+
+                <input type="text" id="prenom" placeholder="Prénom" required>
+                <!-- Champ prénom obligatoire -->
+
+                <input type="text" id="nom" placeholder="Nom" required>
+                <!-- Champ nom obligatoire -->
+
+                <textarea id="message" placeholder="Votre message" required></textarea>
+                <!-- Zone de texte pour écrire le message -->
+
+                <div class="rgpd-consent">
+                    <!-- Case RGPD -->
+                    <input type="checkbox" id="rgpd" required>
+                    <label for="rgpd">
+                        J'accepte que mes données soient traitées conformément au RGPD.
+                    </label>
+                </div>
+
+                <button type="submit">Envoyer</button>
+                <!-- Bouton d'envoi -->
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- Pied de page -->
+        <div class="social-links">
+            <!-- Liens réseaux sociaux -->
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <!-- Icône LinkedIn -->
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <!-- Icône Twitter -->
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <!-- Icône Instagram -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Lien vers ton fichier JavaScript -->
+</body>
+</html>
     <header>
         <div class="logo">
             <h1>Brian Parkansky</h1> </div>
